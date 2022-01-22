@@ -19,7 +19,7 @@ function HomePage({ characters }) {
           <li key={character.id}>
             <Link
               href="/character/[slug]"
-              as={`/character/${slug(character.name)}${character.id}`}
+              as={`/character/${slug(character.name)}-${character.id}`}
             >
               <a>{character.name}</a>
             </Link>

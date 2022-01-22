@@ -6,7 +6,7 @@ const about = () => {
   return (
     <Layout>
       
-      <h1>Merhaba</h1>
+      <h1>Welcome to next.js</h1>
     </Layout>
   )
 }
